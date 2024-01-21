@@ -32,7 +32,7 @@ $(".btn").click(function() {
 });
 
 function checkAnswer() {
-    var wrongAudio = new Audio("wrong.mp3");
+    var wrongAudio = new Audio("/wrong.mp3");
         if(gamePattern[brojac] !== userClickedPattern[brojac]){
             wrongAudio.play();
             wrongPress();
